@@ -1,0 +1,23 @@
+{
+  "name": "test-blog",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rorysterley/test-blog.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rorysterley/test-blog/issues"
+  },
+  "homepage": "https://github.com/rorysterley/test-blog#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

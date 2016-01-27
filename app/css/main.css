@@ -1,0 +1,26 @@
+.row {
+  border: 1px solid black !important;
+}
+
+.w3-topnav a,.w3-sidenav a,.w3-dropnav a,.w3-dropdown-content a {
+  text-decoration:none !important
+}
+.w3-dropdown-hover:hover .w3-dropdown-content {
+  display:block;
+  z-index:1
+}
+.w3-dropdown-content {
+  background-color:#fff;
+  display:none;
+  position:absolute;
+  min-width:160px;
+  margin:0;
+  padding:0
+}
+.w3-dropdown-content a {
+  padding:6px 16px;
+  display:block
+}
+.w3-dropdown-content a:hover {
+  background-color:#ccc
+}

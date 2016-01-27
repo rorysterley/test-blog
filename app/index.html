@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rory Sterley">
+
+    <title>Test Blog</title>
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body data-ng-app="app">
+    <div class="container-fluid">
+
+      <!-- Head -->
+      <header class="row">
+        <p>header text</p>
+      </header>
+
+      <!-- Nav -->
+      <nav class="row">
+        <p>nav text</p>
+      </nav>
+
+      <!-- Main -->
+      <main data-ng-view class="row">
+        <p>main text</p>
+
+
+        <h2>Hoverable Dropdown</h2>
+        <p>Move the mouse over the button to open the dropdown content.</p>
+
+        <div class="w3-dropdown-hover">
+          <p>Hover Me!
+          <span class="w3-dropdown-content w3-border">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </span>
+        </p>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="row">
+        <p>footer text</p>
+      </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="./js/client.js"></script>
+  </body>
+</html>
